@@ -99,7 +99,7 @@ nav ul li {
   margin-bottom: 30px;
 }
 .hero {
-    background-color: lightpink;
+    background-color: bisque;
     background-size: cover;
     padding: 100px 20px;
     color: white;
@@ -107,6 +107,16 @@ nav ul li {
     top: 0;
     border-radius: 0;
  margin-bottom: 60px;
- transform: scaleX();
-  
+
+}
+.hero:hover {
+    background-color: slategray;
+    transition: background-color 0.5s ease;
+    transform: scaleX(10deg);
+     max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 24px 18px gray;
+  transition: transform 1.3s, background-color 1.3s ease;
 }
