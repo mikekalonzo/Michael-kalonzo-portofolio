@@ -8,9 +8,9 @@ body {
 }
 /* image styling */
 img.profile-pic {
-    width: 190px;
-    height: 250px;
-    border-radius: 45%;
+    width: 195px;
+    height: 190px;
+    border-radius: 50%;
     object-fit: cover;
     margin: 0 auto;
     display: block;
