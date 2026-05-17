@@ -197,6 +197,7 @@ nav a:hover {
   transition: color 0.3s ease;
   cursor: pointer;
   position: relative;
+
 }
 .logo:hover {
      color: #a855f7;
@@ -260,6 +261,8 @@ background-color: rgb(40, 49, 53); /* Slightly lighter background for contrast *
     .about-container {
         flex-direction: column;
         text-align: center;
+        padding: 40px 5%;
+        gap: 20px;
     }
     .about-image img {
         max-width: 100%;
@@ -268,7 +271,17 @@ background-color: rgb(40, 49, 53); /* Slightly lighter background for contrast *
     .about-text {
         margin-top: 20px;
     }
-}/* Contact Section */
+    .about-text h2 {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    .about-text p {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+}
+/* Contact Section */
 #contact {
     padding: 80px 10%;
     background-color: rgb(40, 49, 53);
