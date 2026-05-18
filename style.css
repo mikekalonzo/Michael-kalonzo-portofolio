@@ -51,14 +51,17 @@ span {
 }
 /* Navigation Bar */
 nav {
-    background-color: white;
+      background-color: rgba(168, 85, 247, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
     padding: 10px 5% 8px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
       z-index: 1000; /* Ensure it stays above other content */
-      border-radius: 10px;
+      border-radius: 8px;
+
 }
 nav ul {
     list-style: none;
@@ -72,7 +75,7 @@ nav ul li {
     margin-left: 20px;
 }
 nav a {
-    color: black;
+    color:  #cbd5e1;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.2s ease;
@@ -196,7 +199,7 @@ nav a:hover {
 }
 .logo {
    background-color: inherit;
-   color: black;
+   color: inherit;
   margin-left: 40px;
   padding: 9px;
   display: flex;
